@@ -1,65 +1,75 @@
 /* ------------------------------- reset bruno ------------------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
+
 * {
-  font-family: "Rubik", sans-serif;
-  color: #2b3346;
+	font-family: "Rubik", sans-serif;
+	color: #2b3346;
 }
 p {
-  font-size: 1.3rem;
+	font-size: 1.3rem;
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 .allcaps {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 /* --------------------------------- config --------------------------------- */
 hr {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .bordar {
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 }
 
 /* secoes */
+#steps{
+	background-color:#f2f2f2;
+}
 #hero_video {
-  background-image: url(i/fundo_hero.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: cover;
+	background-image: url(i/fundo_hero.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
 }
 #humanizado {
-  background-image: url(i/fundo_humanizado.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+	background-image: url(i/fundo_humanizado.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
 /* Textos */
+.lh4rem{
+	line-height: 4rem;
+}
+.i3rem{
+	font-size:3rem;
+}
 
 .gp {
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 .tcentro {
-  text-align: center;
+	text-align: center;
 }
 .tazul {
-  color: #0185fe;
+	color: #0185fe;
 }
 h1 {
-  font-size: 4rem;
+	font-size: 4rem;
 }
 .cor_branca {
-  color: #fff;
+	color: #fff;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
