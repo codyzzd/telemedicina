@@ -59,9 +59,7 @@ hr {
 	line-height: 4rem;
 }
 
-.i3rem {
-	font-size: 4rem;
-}
+
 
 .gp {
 	font-size: 1.5rem;
@@ -81,6 +79,28 @@ h1 {
 
 .cor_branca {
 	color: #fff;
+}
+
+/* Botoes */
+.bt-azul {
+	background-color: #0185FE;
+	color: #fff;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.txtbt {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* links */
+a:link {
+	text-decoration: none;
 }
 
 /*Small devices (landscape phones, 576px and up)*/
