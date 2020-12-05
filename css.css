@@ -34,6 +34,12 @@ hr {
 #hero_video {
   background-image: url(i/fundo_hero.png);
   background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+#humanizado {
+  background-image: url(i/fundo_humanizado.png);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
