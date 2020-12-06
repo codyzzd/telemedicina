@@ -41,8 +41,9 @@ hr {
 }
 
 /* secoes */
+
 .herov {
-	width: 560px;
+	width: 100%;
 	height: 315px;
 }
 #steps,
@@ -133,6 +134,14 @@ a:link {
 		background-position: center;
 		background-size: cover;
 	}
+	.herov {
+		width: calc(560px * 1);
+		height: calc(315px * 1);
+	}
+	.herov2 {
+		width: calc(560px * 1);
+		height: calc(315px * 1);
+	}
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -143,6 +152,10 @@ a:link {
 		background-position: left;
 		background-size: cover;
 	}
+	.herov2 {
+		width: calc(560px * 1);
+		height: calc(315px * 1);
+	}
 }
 
 /*Extra large devices (large desktops, 1200px and up)*/
@@ -152,6 +165,11 @@ a:link {
 		background-repeat: no-repeat;
 		background-position: left;
 		background-size: cover;
+	}
+
+	.herov2 {
+		width: calc(560px * 1.5);
+		height: calc(315px * 1.5);
 	}
 }
 
