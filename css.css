@@ -1,8 +1,13 @@
 /* ------------------------------- reset bruno ------------------------------ */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
-
-* {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: "Rubik", sans-serif;
 	color: #2b3346;
 }
@@ -36,15 +41,17 @@ hr {
 }
 
 /* secoes */
-#steps {
+.herov {
+	width: 560px;
+	height: 315px;
+}
+#steps,
+#vantagens3 {
 	background-color: #f2f2f2;
 }
 
 #hero_video {
-	background-image: url(i/fundo_hero.png);
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: cover;
+	background-color: #fff;
 }
 
 #humanizado {
@@ -64,12 +71,13 @@ hr {
 }
 
 .tazul {
-	color: #0185fe;
+	/*color: #0185fe;*/
+	color: #2e55a1;
 }
 
 h1 {
-	font-size: 2rem;
-	/*line-height: 3rem;*/
+	font-size: 3rem;
+	line-height: 3rem;
 	/*padding-top: 20px;*/
 }
 
@@ -78,20 +86,30 @@ h1 {
 }
 
 /* Botoes */
+
 .bt-azul {
-	background-color: #0185FE;
-	color: #fff;
+	background-color: #6ea92f;
+	color: #fff !important;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
+	transition: all 0.3s 0s ease;
+	-webkit-transition: all 0.3s 0s ease;
+	-moz-transition: all 0.3s 0s ease;
+	-ms-transition: all 0.3s 0s ease;
+	-o-transition: all 0.3s 0s ease;
+}
+.bt-azul:hover {
+	color: #6ea92f !important;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px #6ea92f;
 }
 
 .txtbt {
 	font-size: 1.2rem;
 	font-weight: bold;
-	color: #fff;
 }
 
 /* links */
@@ -100,20 +118,41 @@ a:link {
 }
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+}
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 	h1 {
 		font-size: 4rem;
+		line-height: 4rem;
 	}
-
+	#hero_video {
+		background-image: url(i/fundo_hero3.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+	#hero_video {
+		background-image: url(i/fundo_hero22.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: cover;
+	}
+}
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+	#hero_video {
+		background-image: url(i/fundo_hero2.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: cover;
+	}
+}
 
 /* --------------------------------- config --------------------------------- */
