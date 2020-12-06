@@ -41,7 +41,13 @@ hr {
 }
 
 /* secoes */
-
+.rodape {
+	background-color: #f2f2f2;
+	font-size: 0.5rem;
+}
+.rodape p {
+	font-size: 0.9rem;
+}
 .herov {
 	width: 100%;
 	height: 315px;
