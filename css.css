@@ -1,4 +1,5 @@
 /* ------------------------------- reset bruno ------------------------------ */
+
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap");
 
 p,
@@ -8,202 +9,232 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Rubik", sans-serif;
-	color: #2b3346;
+  font-family: "Rubik", sans-serif;
+  color: #2b3346;
 }
 
 p {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .allcaps {
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
+
 /* --------------------------------- config --------------------------------- */
+
 hr {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	border: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .bordar {
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
-/* secoes */
+
+/* --------------------------------- secoes --------------------------------- */
 
 .rodape {
-	background-color: #f2f2f2;
-	font-size: 0.5rem;
+  background-color: #f2f2f2;
+  font-size: 0.5rem;
 }
-.rodape p {
-	font-size: 0.9rem;
+
+.Rodape p {
+  font-size: 0.9rem;
 }
+
 .herov,
 .herov2 {
-	width: 100%;
-	height: 315px;
+  width: 100%;
+  height: 315px;
 }
+
 #steps2 {
-	background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
+
 #steps,
 #vantagens3 {
-	background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 #hero_video {
-	background-color: #fff;
+  background-color: #fff;
 }
 
 #humanizado {
-	background-image: url(i/fundo_humanizado.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+  background-image: url(i/fundo_humanizado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/* Textos */
+
+/* --------------------------------- textos --------------------------------- */
+
 ul,
 ol {
-	font-size: 1.3rem;
+  font-size: 1.3rem;
 }
+
 ol li,
 ul li {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
+
 .gp {
-	font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .tcentro {
-	text-align: center;
+  text-align: center;
 }
 
 .tazul {
-	/*color: #0185fe;*/
-	color: #2e55a1;
+  /*color: #0185fe;*/
+  color: #2e55a1;
 }
 
 h1 {
-	font-size: 3rem;
-	line-height: 3rem;
-	/*padding-top: 20px;*/
+  font-size: 3rem;
+  line-height: 3rem;
+  /*padding-top: 20px;*/
 }
 
 .cor_branca {
-	color: #fff;
+  color: #fff;
 }
 
-/* Botoes */
+
+/* --------------------------------- Botoes --------------------------------- */
 
 .bt-azul {
-	background-color: #6ea92f;
-	color: #fff !important;
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	-ms-border-radius: 10px;
-	-o-border-radius: 10px;
-	transition: all 0.3s 0s ease;
-	-webkit-transition: all 0.3s 0s ease;
-	-moz-transition: all 0.3s 0s ease;
-	-ms-transition: all 0.3s 0s ease;
-	-o-transition: all 0.3s 0s ease;
+  background-color: #6ea92f;
+  color: #fff !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s 0s ease;
+  -webkit-transition: all 0.3s 0s ease;
+  -moz-transition: all 0.3s 0s ease;
+  -ms-transition: all 0.3s 0s ease;
+  -o-transition: all 0.3s 0s ease;
 }
+
 .bt-azul:hover {
-	color: #6ea92f !important;
-	background-color: #fff;
-	box-shadow: 0px 0px 20px #6ea92f;
+  color: #6ea92f !important;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #6ea92f;
 }
 
 .txtbt {
-	font-size: 1.2rem;
-	font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-/* links */
+
+/* ---------------------------------- links --------------------------------- */
+
 a:link {
-	text-decoration: none;
+  text-decoration: none;
 }
+
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-}
+
+@media (min-width: 576px) {}
+
 
 /*Medium devices (tablets, 768px and up)*/
+
 @media (min-width: 768px) {
-	#steps2 {
-		background-image: url(i/steps.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
-	h1 {
-		font-size: 4rem;
-		line-height: 4rem;
-	}
-	#hero_video {
-		background-image: url(i/fundo_hero3.png);
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	}
-	.herov {
-		width: calc(560px * 1);
-		height: calc(315px * 1);
-	}
-	.herov2 {
-		width: calc(560px * 1);
-		height: calc(315px * 1);
-	}
+  #steps2 {
+    background-image: url(i/steps.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  #hero_video {
+    background-image: url(i/fundo_hero3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .herov {
+    width: calc(560px * 1);
+    height: calc(315px * 1);
+  }
+
+  .herov2 {
+    width: calc(560px * 1);
+    height: calc(315px * 1);
+  }
 }
+
 
 /*Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) {
-	#steps2 {
-		padding-top: 50px;
-		padding-bottom: 50px;
-	}
-	#hero_video {
-		background-image: url(i/fundo_hero22.png);
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: cover;
-	}
-	.herov2 {
-		width: calc(560px * 1);
-		height: calc(315px * 1);
-	}
+  #steps2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #hero_video {
+    background-image: url(i/fundo_hero22.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .herov2 {
+    width: calc(560px * 1);
+    height: calc(315px * 1);
+  }
 }
+
 
 /*Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	#steps2 {
-		padding-top: 70px;
-		padding-bottom: 70px;
-	}
-	#hero_video {
-		background-image: url(i/fundo_hero2.png);
-		background-repeat: no-repeat;
-		background-position: left;
-		background-size: cover;
-	}
 
-	.herov2 {
-		width: calc(560px * 1.5);
-		height: calc(315px * 1.5);
-	}
+@media (min-width: 1200px) {
+  #steps2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  #hero_video {
+    background-image: url(i/fundo_hero2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+  }
+
+  .herov2 {
+    width: calc(560px * 1.5);
+    height: calc(315px * 1.5);
+  }
 }
+
 
 /* --------------------------------- config --------------------------------- */
