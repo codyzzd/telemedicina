@@ -72,7 +72,7 @@ ul li {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3rem;
   /*padding-top: 20px;*/
 }
@@ -161,7 +161,15 @@ a:link {
 
 /*Small devices (landscape phones, 576px and up)*/
 
-@media (min-width: 576px) {}
+@media (min-width: 576px) {
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    /*padding-top: 20px;*/
+  }
+
+}
 
 
 /*Medium devices (tablets, 768px and up)*/
