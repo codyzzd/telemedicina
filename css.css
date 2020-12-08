@@ -134,8 +134,8 @@ a:link {
 
 .herov,
 .herov2 {
-  width: 100%;
-  height: 315px;
+  width: 260px;
+  height: 146px;
 }
 
 #steps2 {
@@ -151,11 +151,12 @@ a:link {
   background-color: #fff;
 }
 
-#humanizado {
+#humanizado,#desconto {
   background-image: url(i/fundo_humanizado.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+
 }
 
 
@@ -168,6 +169,11 @@ a:link {
     line-height: 3rem;
     /*padding-top: 20px;*/
   }
+  .herov,
+.herov2 {
+  width: 556px;
+  height: 312px;
+}
 
 }
 
