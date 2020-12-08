@@ -44,42 +44,6 @@ hr {
 }
 
 
-/* --------------------------------- secoes --------------------------------- */
-
-.rodape {
-  background-color: #f2f2f2;
-  font-size: 0.5rem;
-}
-
-.Rodape p {
-  font-size: 0.9rem;
-}
-
-.herov,
-.herov2 {
-  width: 100%;
-  height: 315px;
-}
-
-#steps2 {
-  background-color: #f2f2f2;
-}
-
-#steps,
-#vantagens3 {
-  background-color: #f2f2f2;
-}
-
-#hero_video {
-  background-color: #fff;
-}
-
-#humanizado {
-  background-image: url(i/fundo_humanizado.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
 
 /* --------------------------------- textos --------------------------------- */
@@ -151,6 +115,47 @@ h1 {
 
 a:link {
   text-decoration: none;
+}
+
+
+/* --------------------------------- secoes --------------------------------- */
+
+.rodape {
+  background-color: #f2f2f2;
+
+}
+.rodape p{
+  font-size:0.8rem;
+}
+
+.Rodape p {
+  font-size: 0.9rem;
+}
+
+.herov,
+.herov2 {
+  width: 100%;
+  height: 315px;
+}
+
+#steps2 {
+  background-color: #f2f2f2;
+}
+
+#steps,
+#vantagens3 {
+  background-color: #f2f2f2;
+}
+
+#hero_video {
+  background-color: #fff;
+}
+
+#humanizado {
+  background-image: url(i/fundo_humanizado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
